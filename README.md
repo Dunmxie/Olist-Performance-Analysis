@@ -56,9 +56,7 @@ graph TD
 
     %% Styling
     style root fill:#2d3748,stroke:#1a202c,stroke-width:2px,color:#fff
-    style readme fill:#1a202c,stroke:#cbd5e0,stroke-width:1px
-    style src fill:#1a202c,stroke:#cbd5e0,stroke-width:1px
-    style docs fill:#1a202c,stroke:#cbd5e0,stroke-width:1px
+    
 ```
 
 
