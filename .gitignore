@@ -1,0 +1,26 @@
+# .gitignore
+
+# Raw data — never commit large CSVs to GitHub
+data/raw/
+data/cleaned/*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# Environment files
+.env
+*.env
+venv/
+env/
+
+# Kaggle credentials — never commit
+kaggle.json
+~/.kaggle/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Excel temp files
+~$*.xlsx
