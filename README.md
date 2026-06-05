@@ -1,6 +1,6 @@
 # Olist E-Commerce Business Performance Analysis
 
-**Role:** End-to-End Operations Analytics | Retail / E-Commerce  
+**Industry:** Retail / E-Commerce  
 **Tools:** Python · SQL · Power BI · Excel · Git  
 **Dataset:** [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) 100k+ orders, 2016 - 2018
 
@@ -18,6 +18,22 @@ customer lifetime value segmentation, and a 90-day revenue forecast packaged
 for both executive decision-making and analyst-level deep dives.
 
 ---
+
+## Deliverables
+
+| Deliverable | Location |
+|---|---
+| Data Cleaning Notebook | `notebooks/01_cleaning/` |
+| Exploratory Analysis Notebook | `notebooks/02_eda/` |
+| SQL KPI Views + Queries | `sql/` |
+| Forecasting Notebook | `notebooks/04_forecasting/` |
+| Executive Dashboard | `reports/dashboard_exports/` |
+| Analyst Deep-Dive Dashboard | `reports/dashboard_exports/` |
+| Executive Presentation Deck | `reports/exec_deck/` |
+| Recommendation Memo | `reports/memo/` |
+
+---
+
 
 ## Project Structure
 
@@ -54,11 +70,16 @@ graph TD
     reports --> deck[exec_deck/ <br><i>Executive PowerPoint</i>]
     reports --> memo[memo/ <br><i>Business Recommendations</i>]
 
+    %% Docs Expanded Files
+    docs --> d1[SETUP.md <br><i>Environment Setup</i>]
+    docs --> d2[TECHNICAL_LOG.md <br><i>Audit Trail</i>]
+    docs --> d3[DATA_DICTIONARY.md <br><i>Data Engineering Practice</i>]
+    docs --> d4[ANALYSIS_NOTES.md <br>]
+
     %% Styling
     style root fill:#2d3748,stroke:#1a202c,stroke-width:2px,color:#fff
     
 ```
-
 
 ## Setup Instructions
 
