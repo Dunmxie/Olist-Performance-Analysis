@@ -116,4 +116,4 @@ unzip brazilian-ecommerce.zip -d data/raw/
 ---
 
 ## Status
-🔄 In Progress: Data Cleaning
+🔄 In Progress: Exploratory Data Analysis
