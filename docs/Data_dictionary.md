@@ -5,8 +5,8 @@ This document provides a comprehensive overview of the raw Olist Brazilian E-Com
 ---
 
 ## 1. Dataset Metadata
-* **Data Source:** Kaggle: Olist Brazilian E-Commerce Public Dataset
-* **Access URL:** [Kaggle Dataset Link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+* **Data Source:** Olist Brazilian E-Commerce Public Dataset
+* **Access URL:** [Dataset Link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 * **Licensing:** CC BY-NC-SA 4.0 (Creative Commons Attribution-NonCommercial-ShareAlike)
 * **Dataset Volume:** 9 distinct relational tables (CSV format)
 
